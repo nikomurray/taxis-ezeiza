@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Poppins' , sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100dvh;
+    background-color: #000;
+}
+
+h1 , h2 , h3, h4 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* HOME */
+.home {
+    height: 100dvh;
+    background-color: rgb(43, 43, 43);
+    position: relative;
+}
+
+header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .enable {
+    display: flex;
+    align-items: center;
+}
+
+/* HOME CTA */
+.cta {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.wpp-cta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    animation: titilar 8s infinite alternate;
+}
+
+.cta h1 {
+    font-size: 2.4rem;
+}
+
+.cta h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.cta h3 {
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.btn {
+    border: solid #ffffffa1 1px;
+    border-radius: 4px;
+    padding: 0.5rem 1rem ;
+}
+
+@keyframes titilar {
+    0% {
+      box-shadow: 0 0 5px #ceffab1c; 
+    }
+    50% {
+      box-shadow: 0 0 8px #ceffab; 
+    }
+    100% {
+        box-shadow: 0 0 5px #ceffab54; 
+    }
+  }
