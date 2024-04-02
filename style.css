@@ -41,7 +41,7 @@ a {
 }
 /* HOME */
 .home {
-    height: 100vh;
+    height: 100dvh;
     background-color: rgb(43, 43, 43);
     position: relative;
     color: #fff;
