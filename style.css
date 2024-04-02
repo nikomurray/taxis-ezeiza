@@ -16,7 +16,7 @@ html {
 body {
     min-height: 100dvh;
     background-color: #ececec;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -36,12 +36,19 @@ p {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
 /* HOME */
 .home {
     height: 100dvh;
     background-color: rgb(43, 43, 43);
     position: relative;
     color: #fff;
+    background-image: url(./img/taxibg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 header {
@@ -71,7 +78,7 @@ header .enable {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     text-align: center;
 }
 
@@ -84,6 +91,8 @@ header .enable {
 }
 
 .wpp-cta {
+    font-size: 1rem;
+    background-color: #000000cd;
     width: fit-content;
     display: flex;
     align-items: center;
@@ -92,15 +101,16 @@ header .enable {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
-    animation: titilar 8s infinite alternate;
+    box-shadow: 0 0 3px rgb(218, 255, 163);
 }
 
 .cta h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight:700;
 }
 
 .cta h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -116,6 +126,7 @@ header .enable {
 }
 
 .btn {
+    background-color: #000000cd;
     border: solid #ffffffa1 1px;
     border-radius: 4px;
     cursor: pointer;
@@ -123,6 +134,11 @@ header .enable {
     display: flex;
     align-items: center;
     gap: 4px;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.6;
 }
 
 /* PRICE */
@@ -212,7 +228,11 @@ header .enable {
     width: 80%;
     margin: 1rem auto;
     border-radius: 8px;
+    transition: opacity 0.2s;
+}
 
+.price-cta:hover {
+    opacity: 0.6;
 }
 
 .price-features {
@@ -264,7 +284,7 @@ ul li span {
     }
 
     .logo-img {
-        width: 100px;
+        width: 150px;
     }
 
     .prices {
