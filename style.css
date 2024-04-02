@@ -346,6 +346,13 @@ iframe {
 .footer-info {
     font-size: 1.4rem;
 }
+.footer-info p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
 .footer-logo {
     padding: 1rem 0;
     display: flex;
