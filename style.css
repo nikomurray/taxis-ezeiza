@@ -153,6 +153,26 @@ header .enable {
     opacity: 0.6;
 }
 
+.home-footer {
+    position: absolute;
+    bottom: 4px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-footer p {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 4px;
+}
+
+.home-footer span {
+    font-size: 1rem;
+}
+
 /* PRICE */
 .prices-title {
     display: flex;
