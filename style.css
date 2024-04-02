@@ -117,7 +117,13 @@ header .enable {
 
 .cta h2 {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
+}
+
+.cta .sub {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .cta h3 {
