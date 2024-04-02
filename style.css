@@ -38,6 +38,7 @@ p {
 
 a {
     text-decoration: none;
+    display: block;
 }
 /* HOME */
 .home {
@@ -151,6 +152,17 @@ header .enable {
 
 .btn:hover {
     opacity: 0.6;
+}
+
+
+.phone-btn {
+    border: solid #fff 1px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0.5rem 3rem;
+    border-radius: 12px;
+    margin-bottom: 10px;
 }
 
 .home-footer {
@@ -405,7 +417,7 @@ iframe {
 .footer-logo  {
     display: flex;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
 }
 
 
