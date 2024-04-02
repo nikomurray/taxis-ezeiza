@@ -15,7 +15,7 @@ html {
 
 body {
     min-height: 100dvh;
-    background-color: #ececec;
+    background-color: #222222;
     font-family: "Poppins", sans-serif;
 }
 
@@ -92,16 +92,17 @@ header .enable {
 
 .wpp-cta {
     font-size: 1rem;
-    background-color: #000000cd;
+    background-color: #00000063;
     width: fit-content;
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 3rem;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
-    box-shadow: 0 0 3px rgb(218, 255, 163);
+    border: solid #ffffff7a 1px;
+    margin-top: 1rem;
 }
 
 .cta h1 {
@@ -126,8 +127,7 @@ header .enable {
 }
 
 .btn {
-    background-color: #000000cd;
-    border: solid #ffffffa1 1px;
+    background-color: #0000008f;
     border-radius: 4px;
     cursor: pointer;
     padding: 0.5rem 1rem;
@@ -156,7 +156,7 @@ header .enable {
     border-radius: 8px;
     padding: 2rem 0;
     color: #000;
-    box-shadow:  0 0 5px #000000ae;
+    box-shadow:  0 0 5px #fefefeae;
 }
 
 .price-icons {
