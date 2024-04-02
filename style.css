@@ -155,7 +155,8 @@ header .enable {
 
 .home-footer {
     position: absolute;
-    bottom: 4px;
+    bottom:0;
+    left: 0;
     padding: 1rem;
     display: flex;
     flex-direction: column;
