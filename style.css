@@ -45,7 +45,7 @@ a {
     background-color: rgb(43, 43, 43);
     position: relative;
     color: #fff;
-    background-image: url(./img/taxibg.jpg);
+    background-image: url(./img/taxi2bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -69,6 +69,8 @@ header .enable {
 }
 /* HOME CTA */
 .cta {
+    padding: 1rem 0;
+    background-color: #00000090;
     color: #fff;
     width: 100%;
     position: absolute;
@@ -92,7 +94,6 @@ header .enable {
 
 .wpp-cta {
     font-size: 1rem;
-    background-color: #00000063;
     width: fit-content;
     display: flex;
     align-items: center;
@@ -101,8 +102,12 @@ header .enable {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
-    border: solid #ffffff7a 1px;
+   box-shadow:  0 0 5px rgba(0, 255, 0, 0.694);
     margin-top: 1rem;
+}
+
+.wpp-cta:hover{
+    transform: scale(1.1);
 }
 
 .cta h1 {
@@ -128,6 +133,7 @@ header .enable {
 
 .btn {
     background-color: #0000008f;
+    border: solid #ffffffa4 1px;
     border-radius: 4px;
     cursor: pointer;
     padding: 0.5rem 1rem;
