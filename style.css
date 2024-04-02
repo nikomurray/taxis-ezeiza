@@ -57,6 +57,9 @@ header .enable {
     align-items: center;
 }
 
+.logo-img {
+    width: 200px;
+}
 /* HOME CTA */
 .cta {
     color: #fff;
@@ -72,7 +75,16 @@ header .enable {
     text-align: center;
 }
 
+.main-cta {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .wpp-cta {
+    width: fit-content;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -81,15 +93,14 @@ header .enable {
     cursor: pointer;
     transition: all 0.2s;
     animation: titilar 8s infinite alternate;
-    margin-top: 2rem;
 }
 
 .cta h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .cta h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -101,7 +112,7 @@ header .enable {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin: 6rem 0;
+    margin-top:140px;
 }
 
 .btn {
@@ -250,6 +261,10 @@ ul li span {
 @media screen and (max-width:800px) {
     html {
         font-size: 12px;
+    }
+
+    .logo-img {
+        width: 100px;
     }
 
     .prices {
