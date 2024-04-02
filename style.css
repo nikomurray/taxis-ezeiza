@@ -65,7 +65,7 @@ header .enable {
 }
 
 .logo-img {
-    width: 200px;
+    width: 300px;
 }
 /* HOME CTA */
 .cta {
@@ -154,6 +154,18 @@ header .enable {
 }
 
 /* PRICE */
+.prices-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 1rem 0;
+}
+
+.prices-title span {
+    font-size: 2rem;
+}
+
 .prices {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -272,6 +284,48 @@ ul li {
 ul li span {
     color: #000;
 }
+
+/* ABOUT US */
+h5 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.about-us-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-us-title span {
+    font-size: 2rem;
+}
+
+.about-us-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-us-img img {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.about-us-img p {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.5;
+    font-weight: 300;
+}
+
 @keyframes titilar {
     0% {
         box-shadow: 0 0 5px #ceffab1c;
@@ -301,5 +355,9 @@ ul li span {
 
     .prices {
         grid-template-columns: 1fr;
+    }
+
+    .about-us-img {
+        width: 100%;
     }
 }
