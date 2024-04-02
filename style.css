@@ -402,6 +402,14 @@ iframe {
     padding: 1rem 0;
 }
 
+.footer-logo  {
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+
+
 @keyframes titilar {
     0% {
         box-shadow: 0 0 5px #ceffab1c;
@@ -441,6 +449,10 @@ iframe {
 
     .footer-logo img {
         width: 180px;
+    }
+
+    .footer-logo img:last-child {
+        width: 100px;
     }
 
     .authorized img {
