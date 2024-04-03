@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    position: relative;
     min-width: 0;
     margin: 0;
     padding: 0;
@@ -136,6 +135,7 @@ header .enable {
     align-items: center;
     gap: 2rem;
     margin-top:100px;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -156,13 +156,13 @@ header .enable {
 
 
 .phone-btn {
-    border: solid #fff 1px;
     display: flex;
     align-items: center;
     gap: 4px;
     padding: 0.5rem 3rem;
     border-radius: 12px;
     margin-bottom: 10px;
+    border: solid #fff 1px;
 }
 
 .home-footer {
