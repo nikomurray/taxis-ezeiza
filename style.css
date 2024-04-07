@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    min-height: 100dvh;
+    min-height: 100vh;
     background-color: #222222;
     font-family: "Poppins", sans-serif;
 }
@@ -39,9 +39,10 @@ a {
     text-decoration: none;
     display: block;
 }
+
 /* HOME */
 .home {
-    height: 100dvh;
+    height: 100vh;
     background-color: rgb(43, 43, 43);
     position: relative;
     color: #fff;
@@ -67,6 +68,7 @@ header .enable {
 .logo-img {
     width: 300px;
 }
+
 /* HOME CTA */
 .cta {
     padding: 1rem 0;
@@ -102,24 +104,18 @@ header .enable {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
-   box-shadow:  0 0 5px rgba(0, 255, 0, 0.694);
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.694);
     margin-top: 1rem;
 }
 
 .cta h1 {
     font-size: 1.8rem;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .cta h2 {
     font-size: 1.2rem;
     font-weight: 700;
-}
-
-.cta .sub {
-    display: flex;
-    align-items: center;
-    gap: 4px;
 }
 
 .cta h3 {
@@ -130,8 +126,7 @@ header .enable {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-top:100px;
-    margin-bottom: 30px;
+    margin:4rem 0;
 }
 
 .btn {
@@ -154,11 +149,12 @@ header .enable {
     border-radius: 12px;
     margin-bottom: 10px;
     border: solid #fff 1px;
+    margin: 2rem 0;
 }
 
 .home-footer {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 0;
     padding: 1rem;
     display: flex;
@@ -209,7 +205,7 @@ header .enable {
     border-radius: 8px;
     padding: 2rem 0;
     color: #000;
-    box-shadow:  0 0 5px #fefefeae;
+    box-shadow: 0 0 5px #fefefeae;
 }
 
 .price-icons {
@@ -287,6 +283,7 @@ header .enable {
 .price-cta a {
     color: #000;
 }
+
 .price-features {
     padding: 1rem 2rem;
     color: #000;
@@ -297,6 +294,7 @@ header .enable {
     font-size: 0.6rem;
     opacity: 0.6;
 }
+
 .price-features p {
     list-style: none;
     display: flex;
@@ -311,6 +309,7 @@ header .enable {
 .price-features p span {
     color: #000;
 }
+
 /* ABOUT US */
 h4 {
     font-size: 2rem;
@@ -373,6 +372,7 @@ iframe {
 .footer-info {
     font-size: 1.4rem;
 }
+
 .footer-info p {
     display: flex;
     align-items: center;
@@ -380,6 +380,7 @@ iframe {
     font-size: 1.6rem;
     margin-top: 1rem;
 }
+
 .footer-logo {
     padding: 1rem 0;
     display: flex;
@@ -397,7 +398,7 @@ iframe {
     padding: 1rem 0;
 }
 
-.footer-logo  {
+.footer-logo {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -423,7 +424,7 @@ iframe {
 
 
 /* medias */
-@media screen and (max-width:800px) {
+@media screen and (max-width:1300px) {
     html {
         font-size: 12px;
     }
@@ -437,7 +438,7 @@ iframe {
     }
 
 
-    
+
     .about-us-img img {
         height: 250px;
     }
@@ -452,5 +453,14 @@ iframe {
 
     .authorized img {
         width: 90px;
+    }
+
+
+   
+}
+
+@media screen and (max-width:300px) {
+    html {
+        font-size: 10px;
     }
 }
