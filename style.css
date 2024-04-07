@@ -106,10 +106,6 @@ header .enable {
     margin-top: 1rem;
 }
 
-.wpp-cta:hover{
-    transform: scale(1.1);
-}
-
 .cta h1 {
     font-size: 1.8rem;
     font-weight:700;
@@ -149,11 +145,6 @@ header .enable {
     gap: 4px;
     transition: opacity 0.2s;
 }
-
-.btn:hover {
-    opacity: 0.6;
-}
-
 
 .phone-btn {
     display: flex;
