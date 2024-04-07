@@ -297,6 +297,9 @@ header .enable {
     opacity: 0.6;
 }
 
+.price-cta a {
+    color: #000;
+}
 .price-features {
     padding: 1rem 2rem;
     color: #000;
